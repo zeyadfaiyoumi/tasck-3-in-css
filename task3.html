@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.all{display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;text-align: center;}
+
+.H{grid-column: 1/-1;background-color:rgb(72, 17, 153);
+    grid-column: 1/span3;height: 40px;}
+    .Side{grid-column: 1/2 span;background-color: rgb(110, 169, 94);
+        grid-row: 2/3 span;}
+        .a{grid-column: 4/4 span;
+            background-color: rgb(232, 138, 15);
+        grid-row: 2/5 span;align-content: center;}
+        .f{grid-column: 1/-1 ;background-color: rgb(26, 91, 134);
+            height: 40px;align-self: center;}
+        .a .b{ display:inline-block ;height:30%; width: 30%;
+            background-color: rgba(235, 242, 23, 0.899);
+            align-content: center}
+            p{margin-top: 30%;}
+    </style>
+</head>
+<body>
+   
+    
+
+    <div class="all">
+
+<DIV class="H">header</DIV>
+<DIV class="Side">Aside</DIV>
+<DIV class="a"><p>article</p>
+<div class="b">image</div>
+<div class="b">image</div>
+<div class="b">image</div>
+
+
+</DIV>
+<DIV class="f">footer</DIV>
+<DIV class="box"></DIV>
+
+
+
+
+    </div>
+</body>
+</html>
